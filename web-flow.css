@@ -1,0 +1,157 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+}   
+
+
+/* navbar  */
+.nav-container{
+    width: 100vw;
+    height: 100px;
+    background-color: #1B444E;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* navbar logo */
+.nav-logo-container{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo-img{
+    height: 43px;
+    width: 198px;
+    }
+
+.nav-logo-tagline{
+    height: 26px;
+    width: 215px;
+}
+
+/* navbar menu */
+
+.nav-menu-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 148px 224px 85px auto;
+    grid-template-rows: 29px 29px 29px auto ;
+    color: #FFFFFF;
+}
+
+.nav-menu-container >div,button{
+    position: relative;
+    top: 100%;
+    font-family: 'kadwa';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;    
+    box-sizing:border-box;
+    transition:transform 0.2s ease-in-out;
+}
+
+button{
+    border: 1px solid #C0ED4B;
+    border-radius:5px;
+    color: #FFFFFF;
+    background-color: #1B444E;
+    padding:0rem 1rem 2rem;
+    margin-left: 25px;
+    
+}
+
+.nav-menu-container >div:hover{
+    transform: scale(1.1);
+}
+
+/* hero styling */
+
+.hero-container{
+    margin-left: 10%;
+    background-image: url('docments/ParentPath Assets/Hero Section/hero-image.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.hero-heading{  
+width: 796px;
+height: 195px;
+font-family: 'Poly';
+font-weight: 400;
+font-size: 64px;
+padding: 0.7em 0;
+}
+
+.hero-text{
+    width: 720px;
+    height: 133px;
+    font-family: 'Kadwa';
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+
+.hero-button{
+    background-color: #C0ED4B;
+    margin: 5% 0;
+    padding: 0 1%;
+}
+
+.video-text{
+    height: 40px;
+    width: 256;
+    padding: 0 2rem;
+}
+
+.video-btn{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 7%;
+    right: 50%;
+
+}
+
+.hero-layer{
+    height: 318px;
+    width: 434px;
+    position: relative;
+}
+
+
+.hero-layer{
+    position: absolute;
+    right: -5% ;
+    top: 10%;
+}
+
+.whitelayer{
+    height: 121px;
+    width: 121px;
+    border: 8px solid #D0F8CF;
+border-radius: 35%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+
+}
+
+.green-layer{
+    height: 271px;
+    width: 271px;
+    background-color: #C0ED4B;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 35%;
+    right: 0%;
+}
+
+
+
